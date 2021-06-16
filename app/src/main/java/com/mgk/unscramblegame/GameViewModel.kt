@@ -33,6 +33,7 @@ init {
                 else{
                         _currentScrambledWord.value= String(tempWord)
                         ++_currentWordCount
+                        mutableList.add(currentWord)
                 }
 
         }
